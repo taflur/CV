@@ -1,0 +1,107 @@
+/* Write CSS Here */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: rgb(253, 254, 255);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    color: rgb(87, 68, 95);
+    font-size: 15px;
+}
+.full {
+	width: 50%;
+	max-width: 1000px;
+	min-height: 100px;
+	background-color: rgb(245, 239, 231);
+	margin: 0px;
+	display: grid;
+	grid-template-columns: 2fr 4fr;
+}
+.left {
+	position: initial;
+	background-color: #e5e1ee;
+	padding: 20px;
+
+}
+.right {
+	position: initial;
+	background-color: #fffbfa;
+	padding: 20px;
+
+}
+.image, .Contact, .Skills, .Language, .Hobbies, .title,
+.Summary, .Experience, .Education, .Qualities{
+	margin-bottom: 30px;
+}
+h2 {
+    color: #53599a;
+}
+.Place {
+    color: rgb(176, 175, 175);
+}
+.Dates:before{
+    content:" ";
+    display: block;
+    height: 1px;
+    width: 120px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background: rgb(176, 175, 175);
+}
+.Dates:after{
+    content:" ";
+    display: block;
+    height: 1px;
+    width: 120px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    background: rgb(176, 175, 175);
+}
+.Dates{
+    position: relative;
+    /*  new lines  */
+    max-width: 500px;
+    margin: 20px auto 5px auto;
+    text-align: center;
+    color: rgb(176, 175, 175);
+}
+img{
+    border-radius: 50%;
+}
+.Skills {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.left-skills {
+    width: 40%;
+}
+.right-skills {
+    width: 60%;
+}
+ul{
+    margin: 10px 30px;
+}
+.birth{
+    color: rgb(176, 175, 175);
+    margin: 10px auto auto auto;
+}
+.title, .name, .image{
+    text-align: center;
+}
+i{
+    margin-right: 5px;
+    font-size: 13px;
+}
+.email{
+    font-size: 14px;
+}
+h2 i{
+    font-size: 18px;
+}
