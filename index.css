@@ -18,12 +18,12 @@ body {
 	background-color: rgb(245, 239, 231);
 	margin: 0px;
 	display: grid;
-	grid-template-columns: 2fr 4fr;
+	grid-template-columns: 1.4fr 4.6fr;
 }
 .left {
 	position: initial;
 	background-color: #e5e1ee;
-	padding: 20px;
+	padding: 10px;
 
 }
 .right {
@@ -115,8 +115,4 @@ h2 i{
     height:0.2px;
     background: rgb(176, 175, 175);
     margin: 15px 30px 15px 30px;
-  }
-  .comp{
-
-    margin-top: 25px;
   }
